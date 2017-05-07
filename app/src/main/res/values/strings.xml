@@ -5,4 +5,14 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="notification">Notification</string>
+    <string name="floating">floating</string>
+    <string name="inputtext">InputText</string>
+    <string name="add">ADD</string>
+    <string name="gen">gen</string>
+    <string name="fixed">fixed</string>
+    <string name="random">random</string>
+    <string name="increase">increase</string>
+    <string name="decrease">decrease</string>
+    <string name="formatted">formatted</string>
 </resources>

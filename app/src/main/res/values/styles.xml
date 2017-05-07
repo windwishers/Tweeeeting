@@ -14,4 +14,42 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="guild" >
+        <item name="android:background">@color/guide_color</item>
+        <item name="android:layout_height">@dimen/guide_width</item>
+        <item name="android:layout_width">@dimen/guide_width</item>
+    </style>
+
+    <style name="vertical_guild" parent="guild">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/guide_margin</item>
+        <item name="android:layout_marginBottom">@dimen/guide_margin</item>
+        <item name="android:layout_marginStart">@dimen/line_gap</item>
+        <item name="android:layout_marginEnd">@dimen/line_gap</item>
+    </style>
+
+    <style name="horizontal_guild" parent="guild">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/line_gap</item>
+        <item name="android:layout_marginBottom">@dimen/line_gap</item>
+        <item name="android:layout_marginStart">@dimen/guide_margin</item>
+        <item name="android:layout_marginEnd">@dimen/guide_margin</item>
+    </style>
+
+    <style name="ColorButton" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ColorButton.minimize" parent="ColorButton">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="RadioCaption">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
 </resources>
